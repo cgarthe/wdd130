@@ -1,0 +1,195 @@
+
+body {
+  font-family: Arial, Helvetica, Verdana, Calibri;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0055a5;
+  text-decoration: underline;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.companylogo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.companylogo img {
+  width: 225px;
+  height: 125px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+nav {
+  background-color: #0055a5;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+nav a.active {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+.hook {
+  background-color: white;
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hook-bg img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hook-text {
+  margin-top: 15px;
+}
+
+.hook-text h2 {
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.more-button a {
+  display: inline-block;
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.more-button a:hover {
+  background-color: #0055a5;
+}
+
+main.data {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+main.data > div {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+main.data img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 5px;
+}
+
+main.data p {
+  text-align: justify;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.slogan p,
+.location p {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2em;
+  color: #003366;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer .social {
+  margin-top: 10px;
+}
+
+footer .social p {
+  margin-bottom: 5px;
+}
+
+footer .social img {
+  width: 30px;
+  margin: 0 8px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+
+footer .social img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .hook-bg img {
+    max-width: 100%;
+  }
+
+  main.data img {
+    max-width: 100%;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
